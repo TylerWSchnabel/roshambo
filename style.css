@@ -1,9 +1,14 @@
 html {
     background-image: url("https://s93757.gridserver.com/wp-content/uploads/2010/01/innocent-surf-school-desktop-wallpaper.jpg");
     cursor: url(https://cur.cursors-4u.net/sports/spo-8/spo716.cur), auto !important;
-    font-family: "legwork demo";
+    font-family: "Legwork DEMO", "chalkduster";
     text-align: center;
     font-size: xx-large;
+}
+
+@font-face {
+    src: url(fonts/legwork-demo.regular.otf);
+    font-family: "Legwork DEMO";
 }
 
 .intro {
@@ -42,7 +47,7 @@ html {
 .selection {
     animation: btn 7s;
     background-color: tan;
-    font-family: legwork demo;
+    font-family: "Legwork DEMO", "chalkduster";
     padding: .5em;
     font-size: x-large;
     border-radius: 8px;
@@ -81,7 +86,7 @@ html {
 
 #playBtn {
     background-color: tan;
-    font-family: legwork demo;
+    font-family: "Legwork DEMO", "chalkduster";
     padding: .5em;
     font-size: x-large;
     border-radius: 8px;
