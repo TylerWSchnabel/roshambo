@@ -1,0 +1,89 @@
+html {
+    background-image: url("https://s93757.gridserver.com/wp-content/uploads/2010/01/innocent-surf-school-desktop-wallpaper.jpg");
+    cursor: url(https://cur.cursors-4u.net/sports/spo-8/spo716.cur), auto !important;
+    font-family: "legwork demo";
+    text-align: center;
+    font-size: xx-large;
+}
+
+.intro {
+    text-shadow: 2px 2px #ec5bab;
+}
+
+#impress {
+    font-size: xxxx-large;
+}
+
+#kook {
+    animation: kook 2s;
+}
+@keyframes kook {
+    0% {opacity: 0;};
+    100% {opacity: 100%;} 
+}
+#wax {
+    animation: wax 3s;
+}
+@keyframes wax {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100%{opacity: 100%;}
+}
+
+#beat {
+    animation: beat 5s;
+}
+@keyframes beat {
+    0% {opacity: 0;}
+    70% {opacity: 0;}
+    100% {opacity: 100%;}
+}
+
+.selection {
+    animation: btn 7s;
+    background-color: tan;
+    font-family: legwork demo;
+    padding: .5em;
+    font-size: x-large;
+    border-radius: 8px;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    cursor: url(https://cur.cursors-4u.net/sports/spo-8/spo716.cur), auto !important;
+}
+@keyframes btn {
+    0% {opacity: 0;}
+    70% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.scoreBoard{
+    animation: score 7s;
+    background-color: black;
+    color: tan;
+    width: 60%;
+    justify-content: center;
+    opacity: 85%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 10px;
+    font-size: x-large;
+    margin: auto;
+}
+@keyframes score {
+    0% {opacity: 0;}
+    70% {opacity: 0;}
+    100% {opacity: 85%;}
+}
+
+#scoreHead{
+    text-decoration: underline;
+}
+
+#playBtn {
+    background-color: tan;
+    font-family: legwork demo;
+    padding: .5em;
+    font-size: x-large;
+    border-radius: 8px;
+    cursor: url(https://cur.cursors-4u.net/sports/spo-8/spo716.cur), auto !important;
+}
