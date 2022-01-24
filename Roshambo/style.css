@@ -6,6 +6,11 @@ html {
     font-size: xx-large;
 }
 
+@font-face {
+    font-family: "legwork demo";
+    src: url(https://www.1001fonts.com/legwork-demo-font.html?fg=0b0b0b);
+}
+
 .intro {
     text-shadow: 2px 2px #ec5bab;
 }
