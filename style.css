@@ -11,6 +11,11 @@ html {
     font-family: "Legwork DEMO";
 }
 
+body {
+    width: 80%;
+    margin: auto;
+}
+
 .intro {
     text-shadow: 2px 2px #ec5bab;
 }
